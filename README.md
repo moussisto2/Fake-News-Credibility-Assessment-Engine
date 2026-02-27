@@ -16,7 +16,6 @@ policies to classify content as:
 ## Project Structure
 
 Fake-News-Credibility-Assessment-Engine/
-│
 └── fnce/
 ├── app.py
 ├── config.py
@@ -25,12 +24,10 @@ Fake-News-Credibility-Assessment-Engine/
 │ ├── decision.py
 │ ├── raison_client.py
 │ └── schema.py
-│
 ├── data/
 │ ├── lexicons.json
 │ ├── source_domains.json
 │ └── demo_cases.json
-│
 ├── utils/
 └── tests/
 
