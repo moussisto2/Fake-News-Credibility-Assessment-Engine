@@ -1,10 +1,9 @@
 # Fake News Credibility Assessment Engine (rAIson)
 
-A lightweight, explainable credibility screening system built with **Python + Streamlit**
-and powered by **rAIson (ai-raison.com)** decision policies.
+A lightweight, explainable credibility screening system built with **Python + Streamlit** and powered by **rAIson (ai-raison.com)** decision policies.
 
-This project does NOT attempt to prove factual truth.
-Instead, it detects credibility-related signals and applies structured argumentation
+This project does NOT attempt to prove factual truth. 
+Instead, it detects credibility-related signals and applies structured argumentation 
 policies to classify content as:
 
 - **credible**
@@ -15,40 +14,23 @@ policies to classify content as:
 
 ## Project Structure
 
+```text
 Fake-News-Credibility-Assessment-Engine/
 └── fnce/
-├── app.py
-├── config.py
-├── core/
-│ ├── extractor.py
-│ ├── decision.py
-│ ├── raison_client.py
-│ └── schema.py
-├── data/
-│ ├── lexicons.json
-│ ├── source_domains.json
-│ └── demo_cases.json
-├── utils/
-└── tests/
+    ├── app.py              # Main Streamlit application interface
+    ├── config.py           # Configuration and environment loading
+    ├── core/
+    │   ├── extractor.py    # NLP signal extraction logic
+    │   ├── decision.py     # rAIson policy integration
+    │   ├── raison_client.py # API client for rAIson communication
+    │   └── schema.py       # Data models and validation schemas
+    ├── data/
+    │   ├── lexicons.json   # Keyword/pattern dictionaries for NLP
+    │   ├── source_domains.json # Trusted and untrusted domain databases
+    │   └── demo_cases.json # Sample data for testing and demonstrations
+    ├── utils/              # Helper functions and formatting tools
+    └── tests/              # Pytest suite for core logic
 
-⚠️ Important: You must run commands from inside the `fnce/` directory.
-
----
-
-## Requirements
-
-- Python 3.10+
-- A valid rAIson API key
-
----
-
-## Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/moussisto2/Fake-News-Credibility-Assessment-Engine.git
-cd Fake-News-Credibility-Assessment-Engine
 ```
 
 ### 2. Enter the project directory
