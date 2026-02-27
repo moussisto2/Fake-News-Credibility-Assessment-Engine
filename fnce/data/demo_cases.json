@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Credible - reputable + sources",
+    "title": "Health agency releases updated guidance on seasonal flu vaccinations",
+    "url": "https://www.who.int/news-room",
+    "text": "According to the official statement, the guidance is based on a review of multiple studies (doi:10.0000/example). The report outlines updated recommendations and cites peer-reviewed research.",
+    "manual_reputable_source": false,
+    "manual_has_verifiable_source": false,
+    "manual_fact_check_failed": false
+  },
+  {
+    "name": "Needs verification - clickbait + emotion",
+    "title": "SHOCKING!!! You won't believe what this celebrity did next!!!",
+    "url": "",
+    "text": "People are furious and outraged. Many are saying this changes everything. No doubt this is 100% true!!!",
+    "manual_reputable_source": false,
+    "manual_has_verifiable_source": false,
+    "manual_fact_check_failed": false
+  },
+  {
+    "name": "Likely misinformation - fact check failed override",
+    "title": "Miracle cure suppressed by big pharma finally revealed",
+    "url": "https://unknown-site.example",
+    "text": "They are hiding the truth. This instant cure works 100% and everyone knows it. No sources provided.",
+    "manual_fact_check_failed": true,
+    "manual_reputable_source": false,
+    "manual_has_verifiable_source": false
+  },
+  {
+    "name": "Needs verification - extraordinary claim but evidence cues",
+    "title": "Researchers report surprising result in lab experiment",
+    "url": "",
+    "text": "According to a study published in a journal, the authors describe an unexpected outcome. Source: the paper includes a DOI and links to datasets.",
+    "manual_fact_check_failed": false,
+    "manual_reputable_source": false,
+    "manual_has_verifiable_source": false
+  },
+  {
+    "name": "Needs verification - numbers without source",
+    "title": "New policy will reduce taxes by 37% and increase salaries by 22%",
+    "url": "",
+    "text": "The policy will change 12 sectors, create 500000 jobs in 3 months, and increase GDP by 4.5%. Details are unclear and sources say it will happen soon.",
+    "manual_fact_check_failed": false,
+    "manual_reputable_source": false,
+    "manual_has_verifiable_source": false
+  }
+]
